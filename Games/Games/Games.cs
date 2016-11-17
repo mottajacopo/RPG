@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Games
 {
-    public partial class Form1 : Form
+    public partial class Survival_IngegneGames : Form
     {
-        public Form1()
+        public Survival_IngegneGames()
         {
             InitializeComponent();
         }
