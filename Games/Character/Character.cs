@@ -9,7 +9,6 @@ namespace Characters
     public class Character
     {
         private string nickname;
-
         public string Nickname
         {
             get
@@ -22,9 +21,23 @@ namespace Characters
             }
         }
 
-        public Character(string nickname)
+        private int lifePoints;
+        public int LifePoints
+        {
+            get
+            {
+                return lifePoints;
+            }
+            private set
+            {
+                lifePoints = value;
+            }
+        }
+
+        public Character(string nickname, int lp)
         {
             Nickname = nickname;
+            LifePoints = lp;
         }
     }
 }
