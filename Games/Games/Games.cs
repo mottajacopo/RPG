@@ -14,7 +14,7 @@ namespace Games
 {
     public partial class Survival_IngegneGames : Form
     {
-        private Character _TestPlayer;
+        private Character player;
 
         public Survival_IngegneGames()
         {
