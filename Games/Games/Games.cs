@@ -19,6 +19,7 @@ namespace Games
         public Survival_IngegneGames()
         {
             InitializeComponent();
+            player = new Character("Pippo", 5);
         }
     }
 }
