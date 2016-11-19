@@ -33,7 +33,6 @@ namespace Characters
                 lifePoints = value;
             }
         }
-
         public Character(string nickname, int lp)
         {
             Nickname = nickname;
