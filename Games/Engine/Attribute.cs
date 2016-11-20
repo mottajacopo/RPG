@@ -79,7 +79,5 @@ namespace Engine
             Charisma = charisma;
             Luck = luck;
         }
-
-
     }
 }

@@ -21,6 +21,8 @@ namespace Engine
             }
         }
 
+
+
         public Character(int lpMax, int lpRemaining, int hitPoints, string nickname) : base(lpMax, lpRemaining, hitPoints)
         {
             Nickname = nickname;

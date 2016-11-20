@@ -20,9 +20,38 @@ namespace Engine
                 placeName = value;
             }
         }
-        public Location(string name)
+
+        public Item itemRequiredToEnter;
+        public Item ItemRequiredToEnter
+        {
+            get
+            {
+                return itemRequiredToEnter;
+            }
+            private set
+            {
+                itemRequiredToEnter = value;
+            }
+        }
+
+        private Item reward;
+        public Item ItemReward
+        {
+            get
+            {
+                return reward;
+            }
+            private set
+            {
+                reward = value;
+            }
+        }
+
+        public Location(string name, Item itemRequired, Item reward)
         {
             PlaceName = name;
+            ItemRequiredToEnter = itemRequired;
+            ItemReward = reward;
 
         }
     }
