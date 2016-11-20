@@ -20,7 +20,6 @@ namespace Engine
                 placeName = value;
             }
         }
-
         public Location(string name)
         {
             PlaceName = name;
