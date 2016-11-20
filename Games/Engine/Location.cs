@@ -23,7 +23,7 @@ namespace Engine
 
         public Location(string name)
         {
-             PlaceName = name;
+            PlaceName = name;
 
         }
     }

@@ -8,12 +8,12 @@ namespace Engine
 {
     class Weapon : Item
     {
-        private int minimumDamage ;
+        private int minimumDamage;
         public int MinimumDamage
         {
             get
             {
-                return  minimumDamage;
+                return minimumDamage;
             }
             private set
             {
@@ -35,7 +35,7 @@ namespace Engine
             }
         }
 
-        public Weapon(string name, string pluralName, int id,int minDmg,int maxDmg ) : base (name, pluralName, id)
+        public Weapon(string name, string pluralName, int id, int minDmg, int maxDmg) : base(name, pluralName, id)
         {
             MinimumDamage = minDmg;
             MaximumDamage = maxDmg;

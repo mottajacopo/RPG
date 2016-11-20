@@ -49,7 +49,7 @@ namespace Engine
             }
         }
 
-        public Item(string name,string pluralName,int id)
+        public Item(string name, string pluralName, int id)
         {
             ItemName = name;
             ItemPluralName = pluralName;
