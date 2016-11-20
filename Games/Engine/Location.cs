@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class Location
+    public class Location
     {
         private string placeName;
         public string PlaceName

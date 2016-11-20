@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Engine
 {
 
-    class Item
+    public class Item
     {
         private string name;
         public string ItemName

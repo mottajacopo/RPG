@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Character
+    public class Character : LivingCreature
     {
         private string nickname;
         public string Nickname
@@ -21,23 +21,9 @@ namespace Engine
             }
         }
 
-        private int lifePoints;
-        public int LifePoints
-        {
-            get
-            {
-                return lifePoints;
-            }
-            private set
-            {
-                lifePoints = value;
-            }
-        }
-
-        public Character(string nickname, int lp)
+        public Character(int lpMax, int lpRemaining, int hitPoints, string nickname) : base(lpMax, lpRemaining, hitPoints)
         {
             Nickname = nickname;
-            LifePoints = lp;
         }
     }
 }
