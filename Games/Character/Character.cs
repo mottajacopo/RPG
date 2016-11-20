@@ -74,7 +74,7 @@ namespace Characters
         }
 
         private int sickness;
-        public int Sickness
+        public int Sickness   
         {
             get
             {
